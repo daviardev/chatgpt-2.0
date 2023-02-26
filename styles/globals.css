@@ -1,3 +1,24 @@
+@import url('normalize.css');
+
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@layer components {
+    .btn {
+        align-items: center;
+        border-color: transparent;
+        border-radius: .25rem;
+        border-width: 1px;
+        font-size: .875rem;
+        line-height: 1.25rem;
+        padding: .5rem .75rem;
+        pointer-events: auto;
+        background-color: rgb(16,163,127);
+        color: rgb(255, 255, 255);
+    }
+
+    .btn:hover {
+        background-color: rgb(14, 145, 112);
+    }
+}
